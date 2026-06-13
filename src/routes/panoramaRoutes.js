@@ -6,8 +6,7 @@ import express from 'express';
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const projectRoot = path.resolve(__dirname, '../../..');
-const dataDir = path.join(projectRoot, 'backend', 'data');
+const dataDir = path.resolve(__dirname, '../../data');
 const panoramaFile = path.join(dataDir, 'panorama-scenes.json');
 
 async function readPanoramaScenes() {
