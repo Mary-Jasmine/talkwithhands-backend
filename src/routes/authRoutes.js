@@ -15,7 +15,7 @@ import User from '../models/User.js';
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.resolve(__dirname, '../data');
+const dataDir = path.resolve(__dirname, '../../data');
 const localUsersFile = path.join(dataDir, 'users.json');
 const uploadsDir = path.resolve(__dirname, '../../uploads');
 const googleClient = new OAuth2Client();
@@ -373,6 +373,7 @@ router.post('/facebook/mobile', async (req, res, next) => {
 });
 
 export default router;
+
 
 
 

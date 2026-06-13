@@ -6,7 +6,7 @@ import express from 'express';
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.resolve(__dirname, '../data');
+const dataDir = path.resolve(__dirname, '../../data');
 const basicWordFile = path.join(dataDir, 'basic-words.json');
 
 async function readBasicWords() {
@@ -29,3 +29,4 @@ router.get('/', async (_req, res, next) => {
 });
 
 export default router;
+
