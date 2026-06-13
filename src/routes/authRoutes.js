@@ -17,7 +17,7 @@ const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(__dirname, '../data');
 const localUsersFile = path.join(dataDir, 'users.json');
-const uploadsDir = path.join(projectRoot, 'uploads');
+const uploadsDir = path.resolve(__dirname, '../../uploads');
 const googleClient = new OAuth2Client();
 
 const upload = multer({
@@ -373,3 +373,6 @@ router.post('/facebook/mobile', async (req, res, next) => {
 });
 
 export default router;
+
+
+
