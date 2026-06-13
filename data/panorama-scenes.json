@@ -45,19 +45,81 @@
         "sort_order": 2
       },
 
+            {
+        "id": "bench-rock",
+        "key": "rock",
+        "label": "Rock",
+        "video_asset": "",
+        "video_url": "https://drive.google.com/file/d/14vw1FLGcZT_gQpsmcqpoNLkNAa_vILeO/view?usp=drive_link",
+        "yaw": 165,
+        "pitch": 7,
+        "size": 1,
+        "sort_order": 2
+      },
+
       {
         "id": "bench-car",
         "key": "car",
         "label": "Car",
-        "video_asset": "",
+        "video_asset": "", 
         "video_url": "https://drive.usercontent.google.com/download?id=1IBQYOBLDZFynCaeWK-GqVQA0IjvNqdhv&export=download&confirm=t",
         "yaw": 245,
         "pitch": 15,
         "size": 1,
         "sort_order": 3
       }
-    ]
+    ] 
   },
+
+{
+  "id": "classroom",
+  "key": "classroom",
+  "title": "Classroom",
+  "image_asset": "assets/360/Classroom.png",
+  "image_url": "",
+  "icon": "classroom",
+  "sort_order": 2,
+  "is_active": true,
+  "hotspots": [
+    {
+      "id": "classroom-chair",
+      "key": "chair",
+      "label": "Chair",
+      "video_asset": "",
+      "video_url": "https://drive.google.com/file/d/19pCKkvo9wPLMyEFs9RLPh4Gah5OxrBGN/view?usp=drive_link",
+      "yaw": 90,
+      "pitch": 0,
+      "size": 1,
+      "sort_order": 1
+    }
+  ]
+},
+
+
+{
+  "id": "school",
+  "key": "school",
+  "title": "School",
+  "image_asset": "assets/360/School.png",
+  "image_url": "",
+  "icon": "meeting_room",
+  "sort_order": 2,
+  "is_active": true,
+  "hotspots": [
+    {
+      "id": "school-surroundings",
+      "key": "clouds",
+      "label": "Clouds",
+      "video_asset": "",
+      "video_url": "https://drive.google.com/file/d/1KVu3hDG1jZ6UWdT0xnLKrNB4SlByiqoR/view?usp=drive_link",
+      "yaw": 90,
+      "pitch": 0,
+      "size": 1,
+      "sort_order": 1
+    }
+  ]
+},
+
   {
     "id": "cafe",
     "key": "cafe",
@@ -65,7 +127,7 @@
     "image_asset": "assets/360/CAFE.jpg",
     "image_url": "",
     "icon": "cafe",
-    "sort_order": 2,
+    "sort_order": 4,
     "is_active": true,
     "hotspots": []
   },
@@ -76,7 +138,7 @@
     "image_asset": "assets/360/CR.jpg",
     "image_url": "",
     "icon": "route",
-    "sort_order": 3,
+    "sort_order": 5,
     "is_active": true,
     "hotspots": []
   },
@@ -87,7 +149,7 @@
     "image_asset": "assets/360/PATHWAY.jpg",
     "image_url": "",
     "icon": "crossing",
-    "sort_order": 4,
+    "sort_order": 6,
     "is_active": true,
     "hotspots": [
       {
@@ -110,7 +172,7 @@
     "image_asset": "assets/360/PAVILION.jpg",
     "image_url": "",
     "icon": "route",
-    "sort_order": 5,
+    "sort_order": 7,
     "is_active": true,
     "hotspots": []
   },
@@ -121,7 +183,7 @@
     "image_asset": "assets/360/testing.jpg",
     "image_url": "",
     "icon": "route",
-    "sort_order": 6,
+    "sort_order": 8,
     "is_active": true,
     "hotspots": []
   }
