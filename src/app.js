@@ -20,9 +20,9 @@ import mediaRoutes from './routes/mediaRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const projectRoot = path.resolve(__dirname, '../..');
-const assetsDir = path.join(projectRoot, 'assets');
-const uploadsDir = path.join(projectRoot, 'uploads');
+const projectRoot = path.resolve(__dirname, '..');
+const assetsDir = path.resolve(__dirname, '../assets');
+const uploadsDir = path.resolve(__dirname, '../uploads');
 console.log('Serving assets from:', assetsDir);
 console.log('Assets dir exists:', fs.existsSync(assetsDir));
 
