@@ -1,0 +1,184 @@
+[
+  {
+    "id": "9478e49f-02c3-4ec3-a5d3-1fe83b9dd128",
+    "username": "Smoke Test",
+    "email": "codex-smoke-f3b45627c12b48a58a974b189a441d1a@example.com",
+    "password": "$2b$12$x5mmCg4wp5CKgeIQlFQ43.8W0c5ysDxsrTlhXAKY4d8pKijqCbKsm",
+    "photo_url": "",
+    "cover_photo_url": "",
+    "stars": 0,
+    "coins": 0,
+    "unlocked_levels": [
+      1
+    ],
+    "address": "",
+    "contact_number": "",
+    "sex": "",
+    "age": null,
+    "app_feedback": {
+      "rating": 0,
+      "review": "",
+      "updated_at": null
+    },
+    "avatar_preferences": {
+      "character": "hera",
+      "skin_tone": "default",
+      "outfit": "school"
+    },
+    "createdAt": "2026-05-28T04:18:34.552Z"
+  },
+  {
+    "id": "e87f6bb7-49e5-41aa-84f8-d72d1b66ed8f",
+    "username": "Quick",
+    "email": "quick-28634c38b90141e8a2e712ad43883309@example.com",
+    "password": "$2b$12$/JV2kRezdARHHxt2iDjQ3eHtVY.yZZVSY7XVyVPNjotNOZcB/dk7K",
+    "photo_url": "",
+    "cover_photo_url": "",
+    "stars": 0,
+    "coins": 0,
+    "unlocked_levels": [
+      1
+    ],
+    "address": "",
+    "contact_number": "",
+    "sex": "",
+    "age": null,
+    "app_feedback": {
+      "rating": 0,
+      "review": "",
+      "updated_at": null
+    },
+    "avatar_preferences": {
+      "character": "hera",
+      "skin_tone": "default",
+      "outfit": "school"
+    },
+    "createdAt": "2026-05-28T04:24:35.895Z"
+  },
+  {
+    "id": "local-test-user",
+    "username": "Test User",
+    "email": "test@talkwithhands.com",
+    "password": "$2b$12$2BXpUO2aPLpnFn40Yw98queFm8H0qPtb4nwJO6cZxrBHh56TgCNNq",
+    "photo_url": "",
+    "cover_photo_url": "",
+    "stars": 0,
+    "coins": 0,
+    "unlocked_levels": [
+      1
+    ],
+    "address": "",
+    "contact_number": "",
+    "sex": "",
+    "age": null,
+    "app_feedback": {
+      "rating": 0,
+      "review": "",
+      "updated_at": null
+    },
+    "avatar_preferences": {
+      "character": "hera",
+      "skin_tone": "default",
+      "outfit": "school"
+    },
+    "createdAt": "2026-05-28T04:27:34.514Z",
+    "progress": {
+      "learned": {
+        "alphabet": [
+          "A"
+        ],
+        "number": [],
+        "basic_word": []
+      },
+      "games_played": 1,
+      "seconds_spent": 45,
+      "streak_days": 1,
+      "last_active_date": "2026-06-13",
+      "monthly_events": {
+        "2026-06": 3
+      }
+    },
+    "updatedAt": "2026-06-12T20:12:41.384Z"
+  },
+  {
+    "id": "1ba9598b-bc10-4480-9564-ff02416cb3aa",
+    "photo_url": "/uploads/97105032-3416-48a1-a14f-e3942e140d4b.jpg",
+    "cover_photo_url": "",
+    "stars": 0,
+    "coins": 0,
+    "unlocked_levels": [
+      1
+    ],
+    "address": "",
+    "contact_number": "",
+    "sex": "",
+    "age": null,
+    "app_feedback": {
+      "rating": 0,
+      "review": "",
+      "updated_at": null
+    },
+    "avatar_preferences": {
+      "character": "hera",
+      "skin_tone": "default",
+      "outfit": "school"
+    },
+    "username": "Mary",
+    "email": "maryjasminebolado777@gmail.com",
+    "password": "$2b$12$00/xz.Jq7/31iTcMiAjjiOb5VuoPHb1sZXGErnuvl9uuCNyIck5kO",
+    "createdAt": "2026-06-02T17:45:32.986Z",
+    "updatedAt": "2026-06-12T21:57:56.554Z",
+    "progress": {
+      "learned": {
+        "alphabet": [
+          "A",
+          "E"
+        ],
+        "number": [
+          "2",
+          "1"
+        ],
+        "basic_word": [
+          "above",
+          "back",
+          "angry"
+        ]
+      },
+      "games_played": 2,
+      "seconds_spent": 62,
+      "streak_days": 1,
+      "last_active_date": "2026-06-13",
+      "monthly_events": {
+        "2026-06": 14
+      }
+    }
+  },
+  {
+    "id": "1aa0dcfd-b8cb-40e5-8ef9-5496677e8145",
+    "photo_url": "",
+    "cover_photo_url": "",
+    "stars": 0,
+    "coins": 0,
+    "unlocked_levels": [
+      1
+    ],
+    "address": "",
+    "contact_number": "",
+    "sex": "",
+    "age": null,
+    "app_feedback": {
+      "rating": 0,
+      "review": "",
+      "updated_at": null
+    },
+    "avatar_preferences": {
+      "character": "hera",
+      "skin_tone": "default",
+      "outfit": "school"
+    },
+    "username": "Admin",
+    "email": "talkwithhands06@gmail.com",
+    "password": "$2b$12$61VsndcPY2g16sB48ejSbuw/925z8zCanedo66UwVH2zRhn4BhdqC",
+    "createdAt": "2026-06-04T16:47:30.970Z"
+  }
+]

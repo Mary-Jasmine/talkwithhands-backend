@@ -1,0 +1,128 @@
+[
+  {
+    "id": "bench",
+    "key": "bench",
+    "title": "Bench",
+    "image_asset": "assets/360/BENCH.jpg",
+    "image_url": "",
+    "icon": "bench",
+    "sort_order": 1,
+    "is_active": true,
+    "hotspots": [
+      {
+        "id": "bench-motorcycle",
+        "key": "motorcycle",
+        "label": "Motorcycle",
+        "video_asset": "",
+        "video_url": "https://drive.usercontent.google.com/download?id=11bvdLim7B0GlQI2fDpnzpUFvBiXlDXHw&export=download&confirm=t",
+        "yaw": 125,
+        "pitch": -3,
+        "size": 1,
+        "sort_order": 1
+      },
+
+      {
+        "id": "bench-tricycle",
+        "key": "tricycle",
+        "label": "Tricycle",
+        "video_asset": "",
+        "video_url": "https://drive.usercontent.google.com/download?id=1BlOocJhK83VmZD9PBmtZPq2nWM8NaufB&export=download&confirm=t",
+        "yaw": 80,
+        "pitch": 7,
+        "size": 1,
+        "sort_order": 2
+      },
+
+      {
+        "id": "bench-tricycle",
+        "key": "tricycle",
+        "label": "Tricycle",
+        "video_asset": "",
+        "video_url": "https://drive.usercontent.google.com/download?id=1BlOocJhK83VmZD9PBmtZPq2nWM8NaufB&export=download&confirm=t",
+        "yaw": 165,
+        "pitch": 7,
+        "size": 1,
+        "sort_order": 2
+      },
+
+      {
+        "id": "bench-car",
+        "key": "car",
+        "label": "Car",
+        "video_asset": "",
+        "video_url": "https://drive.usercontent.google.com/download?id=1IBQYOBLDZFynCaeWK-GqVQA0IjvNqdhv&export=download&confirm=t",
+        "yaw": 245,
+        "pitch": 15,
+        "size": 1,
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "cafe",
+    "key": "cafe",
+    "title": "Cafe",
+    "image_asset": "assets/360/CAFE.jpg",
+    "image_url": "",
+    "icon": "cafe",
+    "sort_order": 2,
+    "is_active": true,
+    "hotspots": []
+  },
+  {
+    "id": "cr",
+    "key": "cr",
+    "title": "CR",
+    "image_asset": "assets/360/CR.jpg",
+    "image_url": "",
+    "icon": "route",
+    "sort_order": 3,
+    "is_active": true,
+    "hotspots": []
+  },
+  {
+    "id": "pathway",
+    "key": "pathway",
+    "title": "Pathway",
+    "image_asset": "assets/360/PATHWAY.jpg",
+    "image_url": "",
+    "icon": "crossing",
+    "sort_order": 4,
+    "is_active": true,
+    "hotspots": [
+      {
+        "id": "pathway-car",
+        "key": "car",
+        "label": "Car",
+        "video_asset": "",
+        "video_url": "https://drive.usercontent.google.com/download?id=1IBQYOBLDZFynCaeWK-GqVQA0IjvNqdhv&export=download&confirm=t",
+        "yaw": -88,
+        "pitch": -3,
+        "size": 1,
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "id": "pavilion",
+    "key": "pavilion",
+    "title": "Pavilion",
+    "image_asset": "assets/360/PAVILION.jpg",
+    "image_url": "",
+    "icon": "route",
+    "sort_order": 5,
+    "is_active": true,
+    "hotspots": []
+  },
+  {
+    "id": "testing",
+    "key": "testing",
+    "title": "Testing",
+    "image_asset": "assets/360/testing.jpg",
+    "image_url": "",
+    "icon": "route",
+    "sort_order": 6,
+    "is_active": true,
+    "hotspots": []
+  }
+]
