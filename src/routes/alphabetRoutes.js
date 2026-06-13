@@ -6,7 +6,7 @@ import express from 'express';
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.resolve(__dirname, '../../data');
+const dataDir = path.resolve(__dirname, '../data');
 const alphabetFile = path.join(dataDir, 'alphabet-signs.json');
 
 const defaultAlphabetSigns = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((letter, index) => ({

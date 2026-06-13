@@ -15,8 +15,7 @@ import User from '../models/User.js';
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const projectRoot = path.resolve(__dirname, '../../..');
-const dataDir = path.join(projectRoot, 'backend', 'data');
+const dataDir = path.resolve(__dirname, '../data');
 const localUsersFile = path.join(dataDir, 'users.json');
 const uploadsDir = path.join(projectRoot, 'uploads');
 const googleClient = new OAuth2Client();
