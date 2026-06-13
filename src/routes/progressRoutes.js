@@ -15,7 +15,7 @@ import {
 
 const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.resolve(__dirname, '../data');
+const dataDir = path.resolve(__dirname, '../../data');
 const localUsersFile = path.join(dataDir, 'users.json');
 
 function isMongoReady() {
